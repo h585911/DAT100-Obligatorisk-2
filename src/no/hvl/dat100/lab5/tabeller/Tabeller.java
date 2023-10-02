@@ -5,8 +5,11 @@ public class Tabeller {
 	// a)
 	public static void skrivUt(int[] tabell) {
 
+		for (int i = 0; i < tabell.length; i++) {
+			System.out.println(tabell[i]);
+		}
 		// TODO
-		throw new UnsupportedOperationException("Metoden skrivUt ikke implementert");
+		//throw new UnsupportedOperationException("Metoden skrivUt ikke implementert");
 
 	}
 
