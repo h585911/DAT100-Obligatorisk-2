@@ -1,12 +1,15 @@
 package no.hvl.dat100.lab5.tabeller;
 
+import java.util.Arrays;
+
 public class Tabeller {
 
 	// a)
 	public static void skrivUt(int[] tabell) {
 
 		for (int i = 0; i < tabell.length; i++) {
-			System.out.println(tabell[i]);
+			//System.out.println(tabell[i]);
+			System.out.print(i + " ");
 		}
 		// TODO
 		//throw new UnsupportedOperationException("Metoden skrivUt ikke implementert");
@@ -16,8 +19,13 @@ public class Tabeller {
 	// b)
 	public static String tilStreng(int[] tabell) {
 
+		String arrayToString = Arrays.toString(tabell);
+		
+		System.out.println(arrayToString);
+		
+		return arrayToString;
 		// TODO
-		throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
+		//throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
 		
 	}
 
